@@ -3,25 +3,21 @@
     border-color: var(--color-circle-01);
     transform: translate(-50%, -50%) rotate(0);
   }
-  14% {
+  17% {
     border-color: var(--color-circle-02);
   }
-  28% {
+  34% {
     border-color: var(--color-circle-03);
   }
-  42% {
+  51% {
     border-color: var(--color-circle-04);
     transform: translate(-50%, -50%) rotate(360deg);
   }
-  56% {
+  65% {
     border-color: var(--color-circle-05);
   }
-  70% {
+  79% {
     border-color: var(--color-circle-06);
-  }
-  84%{
-    border-color: var(--color-circle-07);
-    transform: translate(-50%, -50%) rotate(0);
   }
   100%{
     border-color: var(--color-circle-01);

@@ -56,7 +56,7 @@ module.exports = {
             variants: [`400`, `700`]
           },
           {
-            family: `Noto Sans JP`,
+            family: `Noto+Sans+JP`,
             variants: [`400`, `700`]
           }
         ],

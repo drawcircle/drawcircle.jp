@@ -51,8 +51,7 @@
   --color-circle-03: rgb(75, 116, 252);
   --color-circle-04: rgb(75, 211, 252);
   --color-circle-05: rgb(163, 252, 55);
-  --color-circle-06: rgb(236, 252, 55);
-  --color-circle-07: rgb(252, 226, 55);
+  --color-circle-06: rgb(247, 252, 14);
 }
 
 html {
@@ -676,4 +675,10 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+footer {
+  font-family: 'Ubuntu', serif;
+  text-align: center;
+  padding: 10px 0 30px;
 }
