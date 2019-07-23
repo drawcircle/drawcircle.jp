@@ -1,0 +1,108 @@
+@keyframes drawcircleFill {
+  0% {
+    border-color: var(--color-circle-01);
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  14% {
+    border-color: var(--color-circle-02);
+  }
+  28% {
+    border-color: var(--color-circle-03);
+  }
+  42% {
+    border-color: var(--color-circle-04);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  56% {
+    border-color: var(--color-circle-05);
+  }
+  70% {
+    border-color: var(--color-circle-06);
+  }
+  84%{
+    border-color: var(--color-circle-07);
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100%{
+    border-color: var(--color-circle-01);
+    transform: translate(-50%, -50%) rotate(0);
+  }
+}
+
+@keyframes drawcircleFillOverray {
+  0% {
+    color: var(--color-red-06);
+  }
+  25% {
+    color: var(--color-blue-06);
+  }
+  50% {
+    color: var(--color-green-06);
+  }
+  75% {
+    color: var(--color-red-06);
+  }
+  100% {
+    color: var(--color-blue-06);
+  }
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.circle {
+  position: absolute;
+  width: 80vw;
+  max-width: 100vh;
+  max-height: 98vh;
+  height: 78vw;
+  border-radius: 80vw;
+  border-color: var(--color-white);
+  border-style: solid;
+  border-width: 10vw;
+  font-size: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: .75;
+}
+
+.circle[data-circle="1"] {
+  animation: drawcircleFill 10000ms infinite;
+  z-index: 15;
+}
+
+.circle[data-circle="2"] {
+  animation: drawcircleFill 10000ms infinite 3500ms;
+  transform: translate(-50%, -50%) rotate(0);
+  border-color: var(--color-circle-03);
+}
+
+.circle[data-circle="3"] {
+  animation: drawcircleFill 10000ms infinite 7000ms;
+  transform: translate(-50%, -50%) rotate(0);
+  border-color: var(--color-circle-07);
+}
+
+.drawCircle {
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vw;
+  font-weight: bold;
+  /*animation: draw 10000ms infinite;*/
+  z-index: 20;
+  color: var(--color-gray-09);
+  width: 100%;
+  text-align: center;
+}
+
+.styledTypist div {
+  display: inline!important;
+}
