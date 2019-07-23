@@ -43,7 +43,7 @@ const Index = () => {
             ""
           )}
         </span>
-        .drawCircle</h1>
+        .drawCircle()</h1>
     </div>
   )
 }
