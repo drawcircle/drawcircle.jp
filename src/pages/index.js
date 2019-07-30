@@ -27,7 +27,19 @@ const IndexPage = () => (
             <li>前各号に附帯関連する一切の事業</li>
           </ol>
         </li>
+        <li data-title="主な取引先">
+          <ul>
+            <li><a href="http://hblk.co.jp" target="_blank">株式会社HakbeeLanka</a></li>
+            <li><a href="https://gocco.co.jp/" target="_blank">株式会社Gocco</a></li>
+          </ul>
+        </li>
+        <li data-title="受注実績">
+          <ul>
+            <li><a href="https://www.iamas.ac.jp/news/entry-creationkobo2019/" target="_blank">2019.07 岐阜クリエーション工房2019 - 「日常をハックする—ブロックチェーンで考えるぼくらの未来」</a></li>
+          </ul>
+        </li>
       </ul>
+      <p className={styles.contactTitle}>Webサイト制作、デザイン、ワークショップのご相談はこちらから</p>
       <a className={styles.contact} href="mailto:info@drawcircle.jp">お問い合わせ</a>
     </section>
   </Layout>
