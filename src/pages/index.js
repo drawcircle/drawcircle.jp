@@ -28,7 +28,6 @@ const IndexPage = () => (
             <li>第24回 学生CGコンテスト アート部門&エンターテイメント部門 ファイナリスト</li>
             <li>第24回 学生CGコンテスト 未来館賞&Media Ambition Tokyo賞</li>
             <li>Youfab Global Creative Award 2018 ファイナリスト(ライオン特別賞)</li>
-            </li>
           </ul>
         </li>
         <li data-title="主な事業内容">
