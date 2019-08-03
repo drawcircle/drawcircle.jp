@@ -18,7 +18,7 @@ const IndexPage = () => (
         <li data-title="設立">2019年6月</li>
         <li data-title="所在地">〒113-0033 東京都文京区本郷３−４−３ヒルズ８８４お茶ノ水ビル５Ｆ</li>
         <li data-title="代表者"><ruby>加藤<rt>かとう</rt></ruby>&nbsp;<ruby>明洋<rt>あきひろ</rt></ruby></li>
-        <li data-title="代表者プロフィール">1992年生まれ、愛知県出身。大学卒業後ウェブ制作会社を経て、情報科学芸術大学院大学（IAMAS）に進学、メディア表現専攻修了。ブロックチェーンが新しい社会を作る一つの可能性を持っていると考え、それを伝えるための表現としてボードゲーム「<a href="https://trustless.life" target="_blank">TRUSTLESS LIFE</a>」を制作。CREATIVE HACK AWARD 2018 SONY 特別賞を始め各方面からの評価を得る。</li>
+        <li data-title="代表者プロフィール">1992年生まれ、愛知県出身。大学卒業後ウェブ制作会社を経て、情報科学芸術大学院大学（IAMAS）に進学、メディア表現専攻修了。ブロックチェーンが新しい社会を作る一つの可能性を持っていると考え、それを伝えるための表現としてボードゲーム「<a href="https://trustless.life" target="_blank">TRUSTLESS LIFE</a>」を制作。CREATIVE HACK AWARD 2018 SONY 特別賞を始め各方面からの評価を得る。<a href="https://startbahn.jp/about" target="_blank">スタートバーン株式会社</a>でエンジニアとして従事する傍、個人・周辺パートナーと連携し複数のプロジェクトを進めていくために、2019年drawCircle合同会社を設立。現在に至る。</li>
         <li data-title="代表者受賞歴">
           <ul>
             <li>WIRED CREATIVE HACK AWARD 2016 ファイナリスト</li>
@@ -40,7 +40,14 @@ const IndexPage = () => (
         </li>
         <li data-title="主な取引先">
           <ul>
-            <li><a href="http://hblk.co.jp" target="_blank">株式会社HakbeeLanka</a>: コーポレートウェブサイト、採用サイトの実装などを担当。ウェブサービスの開発にも寄与。</li>
+            <li><a href="http://hblk.co.jp" target="_blank">株式会社HakbeeLanka</a>: コーポレートウェブサイト、採用サイトの実装などを担当。ウェブサービスの開発にも寄与。
+              <p>製作実績例</p>
+              <ul>
+                <li><a href="http://beta.nijigen-okoku.jp">美少女二次元王国</a>：ウェブアプリケーションの開発</li>
+                <li><a href="https://www.mishina-matubishi.co.jp/">株式会社三品松菱</a>：コーポレートサイト制作</li>
+                <li><a href="http://petitreve.florist/">Petit reve</a>：コーポレートサイト制作</li>
+              </ul>
+            </li>
             <li><a href="https://gocco.co.jp/" target="_blank">株式会社GOCCO.</a>: 店舗用のウェブアプリケーション開発、大手運搬会社業務システムの設計・開発に寄与。</li>
             <li><a href="https://iamas.ac.jp">情報芸術大学院大学（岐阜県）</a>: 高校生を対象とした、IoTや最新技術を学ぶワークショップを企画・実施予定。詳細は受注実績をご覧ください。</li>
           </ul>
