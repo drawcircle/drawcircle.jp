@@ -11,9 +11,19 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+  const { site, allContentfulAsset } = useStaticQuery(
     graphql`
       query {
+        allContentfulAsset(filter: {title: {eq: "OG Image"}}) {
+          edges {
+            node {
+              file {
+                url
+              }
+              title
+            }
+          }
+        },
         site {
           siteMetadata {
             title
@@ -24,8 +34,8 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-
   const metaDescription = description || site.siteMetadata.description
+  const metaOgImage = "" || allContentfulAsset.edges[0].node.file.url
 
   return (
     <Helmet
@@ -50,6 +60,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: metaOgImage,
         },
         {
           name: `twitter:card`,
