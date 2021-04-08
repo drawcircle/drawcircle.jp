@@ -15,7 +15,7 @@ const IndexPage = () => (
       <ul className={styles.companyInfo}>
         <li data-title="商号"><ruby>drawCircle<rt>ドローサークル</rt>合同会社</ruby></li>
         <li data-title="設立">2019年6月</li>
-        <li data-title="所在地">〒113-0033 東京都文京区本郷３−４−３ヒルズ８８４お茶ノ水ビル５Ｆ</li>
+        <li data-title="所在地">〒134-0087 東京都江戸川区清新町1-4-15-910</li>
         <li data-title="代表者"><ruby>加藤<rt>かとう</rt></ruby>&nbsp;<ruby>明洋<rt>あきひろ</rt></ruby></li>
         <li data-title="代表者プロフィール">1992年生まれ、愛知県出身。大学卒業後ウェブ制作会社を経て、情報科学芸術大学院大学（IAMAS）に進学、メディア表現専攻修了。ブロックチェーンが新しい社会を作る一つの可能性を持っていると考え、それを伝えるための表現としてボードゲーム「<a href="https://trustless.life" target="_blank">TRUSTLESS LIFE</a>」を制作。CREATIVE HACK AWARD 2018 SONY 特別賞を始め各方面からの評価を得る。<a href="https://startbahn.jp/about" target="_blank">スタートバーン株式会社</a>でエンジニアとして従事する傍、個人・周辺パートナーと連携し複数のプロジェクトを進めていくために、2019年drawCircle合同会社を設立。現在に至る。
         <p><a href="https://akihirokato.com/cv">portfolio site</a></p>
