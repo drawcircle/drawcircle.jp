@@ -47,21 +47,6 @@ module.exports = {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Ubuntu`,
-            variants: [`400`, `700`]
-          },
-          {
-            family: `Noto+Sans+JP`,
-            variants: [`400`, `700`]
-          }
-        ],
-      },
-    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

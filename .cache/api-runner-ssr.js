@@ -1,12 +1,9 @@
 var plugins = [{
-      plugin: require('/Users/hblkkato/Projects/drawcircle.jp/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/akihiro/Projects/drawcircle.jp/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/hblkkato/Projects/drawcircle.jp/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/logo-icon.png"},
-    },{
-      plugin: require('/Users/hblkkato/Projects/drawcircle.jp/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":[{"family":"Ubuntu","variants":["400","700"]},{"family":"Noto+Sans+JP","variants":["400","700"]}]},
+      plugin: require('/Users/akihiro/Projects/drawcircle.jp/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/logo-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"f3a19ba32aa12c527944b4808bf1bf94"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
